@@ -7,7 +7,6 @@ let a = 1, b = 2, c = 3;
 
          (function secondFunction(){
              let b = 8;
-             console.log("a: "+a+", b: "+b+", c: "+c);
 
              (function thirdFunction(){
                  let a = 7, c = 9;
@@ -19,7 +18,7 @@ let a = 1, b = 2, c = 3;
                  })();
 
              })();
-
+             console.log("a: "+a+", b: "+b+", c: "+c);
          })();
 
      })();
